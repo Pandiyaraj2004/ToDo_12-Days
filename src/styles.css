@@ -7,3 +7,7 @@
 @media(max-width:700px){aside:not(.open){visibility:hidden;box-shadow:none}.hero-art{opacity:.22;right:-110px}.hero-copy{max-width:100%}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 @media print{aside,header,footer,.no-print,.overlay,.toast,.menu{display:none!important}.shell{margin:0}main{padding:0;max-width:none}body{background:white;color:black}.card,.stat,.certificate{box-shadow:none;break-inside:avoid;border-color:#bbb;background:white;color:black}.page-title{margin-top:20px}.stats-row{grid-template-columns:repeat(4,1fr)}textarea,input{border:0;background:transparent;color:black}button{display:none!important}.certificate{margin-top:30px}}
+
+aside{overflow-y:auto}
+
+
