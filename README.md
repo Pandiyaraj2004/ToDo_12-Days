@@ -38,6 +38,8 @@ npm run preview
 
 ## Deployment
 
+Production: **https://speakup-12-day-challenge.vercel.app/**
+
 Import `Pandiyaraj2004/ToDo_12-Days` into Vercel. Select the Vite preset, `npm run build` as the build command, and `dist` as the output directory. Deploy the `main` branch to production. `vercel.json` includes an SPA fallback for direct navigation and refresh of routes such as `/progress` and `/tasks`. No environment variables are needed. Use the free Hobby plan; no paid resources are required.
 
 ## Data and privacy
@@ -60,3 +62,4 @@ vercel.json       Production build and SPA route configuration
 ## Validation
 
 `npm test` exercises required/optional task counting, undo and day isolation, IST boundaries, backup round-trip and invalid input rejection, streak calculations, and completeness of English exercises. Browser QA additionally checks completion, focus timing, refresh persistence, date switching, navigation, job tracking, and responsive rendering. See `TESTING.md` for recorded release checks and limitations.
+
