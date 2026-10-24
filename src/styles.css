@@ -10,4 +10,4 @@
 
 aside{overflow-y:auto}
 
-
+body{background:var(--bg);color:var(--text)}

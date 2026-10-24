@@ -1,6 +1,6 @@
 # SpeakUp — My 12-Day English Challenge
 
-A personal, responsive English speaking workspace for **October 24–November 4, 2026**, with a **November 5 final review**. Built with React, Vite, Tailwind CSS, Framer Motion, Lucide React, and Recharts. No backend, account, API key, subscription, or database is required.
+A personal, responsive English speaking workspace for **October 25–November 5, 2026**, with a **November 6 final review**. Built with React, Vite, Tailwind CSS, Framer Motion, Lucide React, and Recharts. No backend, account, API key, subscription, or database is required.
 
 ## Features
 
@@ -60,4 +60,3 @@ vercel.json       Production build and SPA route configuration
 ## Validation
 
 `npm test` exercises required/optional task counting, undo and day isolation, IST boundaries, backup round-trip and invalid input rejection, streak calculations, and completeness of English exercises. Browser QA additionally checks completion, focus timing, refresh persistence, date switching, navigation, job tracking, and responsive rendering. See `TESTING.md` for recorded release checks and limitations.
-

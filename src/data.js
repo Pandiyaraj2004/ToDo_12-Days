@@ -39,10 +39,10 @@ export function exercise(day,task){
  if(task.category==='personal')return {instruction:'Take care of yourself. This activity is optional and does not affect daily completion.',goal:'Rest and return refreshed.',questions:[],example:''};
  return {instruction:actions[task.id][0],goal:actions[task.id][1],questions:p,example};
 }
-export const dayDate = day => new Date(Date.UTC(2026,9,23+day)).toISOString().slice(0,10);
+export const dayDate = day => new Date(Date.UTC(2026,9,24+day)).toISOString().slice(0,10);
 export const dateLabel = day => new Date(dayDate(day)+'T00:00:00Z').toLocaleDateString('en-IN',{month:'short',day:'numeric',timeZone:'UTC'});
 export function istDate(now=new Date()){return new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Kolkata',year:'numeric',month:'2-digit',day:'2-digit'}).format(now);}
-export function currentDay(now=new Date()){return Math.floor((Date.parse(istDate(now)+'T00:00:00Z')-Date.parse('2026-10-24T00:00:00Z'))/86400000)+1;}
+export function currentDay(now=new Date()){return Math.floor((Date.parse(istDate(now)+'T00:00:00Z')-Date.parse('2026-10-25T00:00:00Z'))/86400000)+1;}
 export const key=(day,id)=>`${day}:${id}`;
 export const required=schedule.filter(t=>t.required);
 export function dayStats(state,day){const done=required.filter(t=>state.tasks[key(day,t.id)]?.done).length;return {done,total:required.length,percent:Math.round(done/required.length*100),complete:done===required.length};}
